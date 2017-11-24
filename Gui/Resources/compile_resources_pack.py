@@ -1,11 +1,12 @@
 #! /usr/bin/env python
-import os, glob
+import os
+import glob
 
 qrc_filename = 'drawing_dimensioning.qrc'
 assert not os.path.exists(qrc_filename)
 
 qrc = '''<RCC version="1.0">
-	<qresource prefix="/dd">'''
+    <qresource prefix="/dd">'''
 for fn in glob.glob('icons/*.svg') + glob.glob('icons/welding/*.svg') + glob.glob('ui/*.ui'):
     qrc = qrc + '\n\t\t<file>%s</file>' % fn
 qrc = qrc + '''\n\t</qresource>
@@ -13,7 +14,7 @@ qrc = qrc + '''\n\t</qresource>
 
 print(qrc)
 
-f = open(qrc_filename,'w')
+f = open(qrc_filename, 'w')
 f.write(qrc)
 f.close()
 
