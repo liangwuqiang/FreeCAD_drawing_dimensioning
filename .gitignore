@@ -6,3 +6,4 @@ crudeDebugger_output/*
 \#*
 testCases_selectionOverlay/
 dxfwrite/
+.idea/
