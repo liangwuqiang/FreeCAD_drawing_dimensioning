@@ -1,54 +1,128 @@
 # FreeCAD 的工具条
 
-## 工作台
+## 全部默认的工作台
 
 ![](images/13c1bb5a.png)
 
-### 常规工具条
+### 1. Arch （建筑）
 
-文件
-
+#### 文件
 ![文件](images/d796099c.png)
+- 新建 Ctrl+N
+- 打开 Ctrl+O
+- 保存 Ctrl+S
+- 打印 Ctrl+P
+- 剪切 Ctrl+X
+- 复制 Ctrl+C
+- 粘贴 Ctrl+V
+- 撤销 Ctrl+Z
+- 重做 Ctrl+Shift+Z
+- 刷新 Ctrl+R
+- 工作台 选择框
+- 帮助 Shift+F1
 
-视图
-
-![视图](images/160b694c.png)
-
-宏
-
+#### 宏
 ![宏](images/c2b4d7cb.png)
+- 录制宏
+- 停止录制
+- 编辑宏
+- 运行宏 Ctrl+F6
 
-### Arch
+#### 视图
+![视图](images/160b694c.png)
+- 全显
+- 样式 选择
+- 轴侧图 0 
+- 前视图 1
+- 顶视图 2
+- 右视图 3
+- 后视图 4
+- 底视图 5
+- 左视图 6
+- 测量
 
-Draft tray
-
+#### Draft tray （草图托盘）
 ![Draft tray](images/565357cd.png)
+- 草图平面
+- 切换构造模式  ？
+- 线条颜色
+- 表面颜色
+- 线宽
+- 字体大小
+- 应用于选中对象
 
-Arch tools
-
+#### Arch tools
 ![Arch tools](images/21c98180.png)
+- 
+- 
+- 
 
-Draft mod tools
 
-![Draft mod tools](images/7de63580.png)
-
-Draft Snap
-
-![Draft Snap](images/659d920c.png)
-
-Draft tools
-
+#### Draft tools （Draft绘制工具）
 ![Draft tools](images/eea19a68.png)
+- 线段
+- 多线段
+- 圆
+- 圆弧
+- 椭圆
+- 正多边形
+- 矩形
+- 注释
+- 尺寸标注
+- B样条曲线
+- 点
+- facebinder  ？
+- Bezier曲线
 
-### Complete
+#### Draft mod tools （Draft修改工具）
+![Draft mod tools](images/7de63580.png)
+- 移动
+- 旋转
+- 偏移
+- 修剪
+- 连接
+- 分解
+- 缩放
+- 投影 （似乎只能投影到XY平面）
+- Draft和Sketch切换
+- 阵列
+- 克隆
+
+#### Draft Snap （Draft捕捉）
+![Draft Snap](images/659d920c.png)
+- 开关
+- 中点
+- 垂直点
+- 网格
+- 交点
+- 平行  ？
+- 端点
+- 象限点
+- 圆心
+- 延伸点
+- 最近点
+- 正交
+- 尺寸  ？
+- 工作板  ？
+
+### 2. Complete （全部）
 
 Drafting
 
 ![Drafting](images/6a6e3de6.png)
 
-Drawings
-
+#### Drawings
 ![Drawings](images/1b167b18.png)
+- 打开自定义SVG文件
+- 打开标准图幅 （如A3）
+- 插入零件
+- 正交视图
+- 浏览器打开
+- 插入注释视图
+- 插入剪辑组
+- 插入SVG符号
+- 插入Draft视图
+- 导出为SVG文件
 
 Part
 
@@ -58,7 +132,7 @@ Raytracing
 
 ![Raytracing](images/60b4086d.png)
 
-### Draft
+### 3. Draft
 
 Draft Snap
 
@@ -76,35 +150,35 @@ Draft tray
 
 ![绘图修改工具](images/08cfd7b9.png)
 
-### Drawing
+### 4. Drawing
 
 图纸
 
 ![图纸](images/58c5ab2a.png)
 
-### Fem
+### 5. Fem （有限元）
 
 有限元
 
 ![有限元](images/c3fe1d23.png)
 
-### Image
+### 6. Image （图像）
 
 图像
 
 ![图像](images/7e615d9b.png)
 
-### Inspection
+### 7. Inspection （检查）
 
 空
 
-### Mesh design
+### 8. Mesh design
 
 网格工具
 
 ![网格工具](images/f9356e85.png)
 
-### OpenSCAD
+### 9. OpenSCAD
 
 OpenSCAD Part tools
 
@@ -114,77 +188,144 @@ OpenSCADTools
 
 ![OpenSCADTools](images/7cf73256.png)
 
-### Part
+### 10. Part
 
-实体
-
+#### 实体
 ![实体](images/33916113.png)
+- 正方体
+- 圆柱体
+- 球体
+- 圆锥体
+- 圆环体
+- 几何元
+- 高级工具  ？ 不会用
 
-
-布尔值
-
-![布尔值](images/ab60b6e7.png)
-
-零件工具
-
+#### 零件工具
 ![零件工具](images/3655c938.png)
+- 拉伸
+- 旋转
+- 镜像
+- 圆角
+- 倒角
+- 两边生成面
+- 放样
+- 扫掠
+- 偏移 ？ 搞不懂
+- 抽壳
 
+#### 布尔值
+![布尔值](images/ab60b6e7.png)
+- 布尔运算
+- 差集
+- 合集
+- 交集
+- 分析错误
+- 交线
+- 横界面
 
-Measure
-
+#### Measure
 ![Measure](images/0f6854f1.png)
+- 线性测量
+- 角度测量
+- 清空
+- Toggle All  ?
+- Toggle 3d  ?
+- Toggle Delta  ?
 
+### 11. Part Design
 
-### Part Design
-
-草绘几何体
-
-![草绘几何体](images/5e14cbbd.png)
-
-草图约束
-
-![草图约束](images/f27b0e96.png)
-
-零件设计
-
+#### 零件设计
 ![零件设计](images/96c74dd2.png)
+- 新建草绘
+- 编辑
+- 关闭
+- 正视草图
+- 投影到面
+- 凸台
+- 凹槽
+- 旋转
+- 旋转槽
+- 圆角
+- 倒角
+- 拔模  ？
+- 镜像
+- 线性阵列
+- 环形阵列
+- 转换特征  ？  不会用
 
-Sketcher tools
+#### 草绘几何体
+![草绘几何体](images/5e14cbbd.png)
+- 点
+- 线
+- 弧
+- 圆
+- 椭圆
+- 多线
+- 矩形
+- 多边形
+- 腰形
+- 圆角
+- 修剪
+- 投影
+- 辅助线
 
+#### 草图约束
+![草图约束](images/f27b0e96.png)
+- 点重合
+- 点重合到线
+- 垂直
+- 水平
+- 平行
+- 垂直
+- 相切
+- 相等
+- 对称
+- 固定
+- 水平标注
+- 垂直标注
+- 平行标注
+- 半径
+- 角度
+- 折线  ？
+
+#### Sketcher tools
 ![Sketcher tools](images/c0c852b7.png)
+-  
+- 
+- 
 
-### Plot
+### 12. Plot
 
 Plot edition tools
 
 ![Plot edition tools](images/ff331138.png)
 
-### Points
+### 13. Points
 
 点工具
 
 ![](images/948291a2.png)
 
-### Raytracing
+### 14. Raytracing
 
 Raytracing tools
 
 ![Raytracing tools](images/d53c1ea3.png)
 
-### Reverse Engineering
+### 15. Reverse Engineering
 
 逆向工程
 
 ![逆向工程](images/f7283e17.png)
 
-### Robot
+### 16. Robot
 
 机器人
 
 ![机器人](images/1d8ff098.png)
 
 
-### Ship
+### 17. Ship
 
 Ship design
 
@@ -194,29 +335,29 @@ Weights
 
 ![Weights](images/8e4b2c99.png)
 
-### Sketcher
+### 18. Sketcher
 
 草绘
 
 ![草绘](images/68111e3d.png)
 
-### Spreadsheet
+### 19. Spreadsheet
 
 Spreadsheet
 
 ![Spreadsheet](images/7a58072d.png)
 
-### Start
+### 20. Start
 
 Navigation
 
 ![Navigation](images/fc205409.png)
 
-### Test framework
+### 21. Test framework
 
 TestTools
 
 ![TestTools](images/18d32ced.png)
 
-### Web
+### 22. Web
 
