@@ -134,21 +134,25 @@ Raytracing
 
 ### 3. Draft
 
-Draft Snap
-
-![Draft Snap](images/75d2c231.png)
-
-Draft tray
-
+#### Draft tray
 ![Draft tray](images/f7712671.png)
 
-绘图创建工具
-
+#### 绘图创建工具
 ![绘图创建工具](images/55fe5f1b.png)
 
-绘图修改工具
-
+#### 绘图修改工具
 ![绘图修改工具](images/08cfd7b9.png)
+- 移动
+- 旋转
+- 偏移
+- 修剪
+- 合并
+- 分解
+- 缩放
+
+#### Draft Snap
+![Draft Snap](images/75d2c231.png)
+
 
 ### 4. Drawing
 
@@ -232,9 +236,9 @@ OpenSCADTools
 - Toggle 3d  （不明白）
 - Toggle Delta  （不明白）
 
-### 11. Part Design
+### 11. Part Design 零件设计
 
-#### 零件设计
+#### 零件设计（已学）
 ![零件设计](images/96c74dd2.png)
 - 新建草绘
 - 编辑
@@ -247,29 +251,29 @@ OpenSCADTools
 - 旋转槽
 - 圆角
 - 倒角
-- 拔模  ？
-- 镜像
-- 线性阵列
-- 环形阵列
-- 转换特征  ？  不会用
+- 拔模（不会用）
+- 镜像（不会用）
+- 线性阵列（不会用）
+- 环形阵列（不会用）
+- 转换特征（不会用）
 
-#### 草绘几何体
+#### 草绘几何体（已学）
 ![草绘几何体](images/5e14cbbd.png)
 - 点
 - 线
-- 弧
+- 圆弧
 - 圆
-- 椭圆
+- 椭圆（在草图中绘制圆锥形）
 - 多线
 - 矩形
 - 多边形
 - 腰形
 - 圆角
 - 修剪
-- 投影
+- 投影（只能投影用来创建草图的基准面的实体所包含的点和线）
 - 辅助线
 
-#### 草图约束
+#### 草图约束（已学）
 ![草图约束](images/f27b0e96.png)
 - 点重合
 - 点重合到线
@@ -286,7 +290,7 @@ OpenSCADTools
 - 平行标注
 - 半径
 - 角度
-- 折线  ？
+- 折线（不知道什么情况下用）
 
 #### Sketcher tools
 ![Sketcher tools](images/c0c852b7.png)
@@ -347,9 +351,42 @@ Spreadsheet
 
 ![Spreadsheet](images/7a58072d.png)
 
-### 20. Start
+### 20. Start 开始（完成）
 
+#### 文件（已学）
+![文件](images/d796099c.png)
+- 新建 Ctrl+N
+- 打开 Ctrl+O
+- 保存 Ctrl+S
+- 打印 Ctrl+P
+- 剪切 Ctrl+X
+- 复制 Ctrl+C
+- 粘贴 Ctrl+V
+- 撤销 Ctrl+Z
+- 重做 Ctrl+Shift+Z
+- 刷新 Ctrl+R
+- 工作台（选择工作环境）
+- 帮助 Shift+F1
 
+#### 宏（已学）
+![宏](images/c2b4d7cb.png)
+- 录制宏
+- 停止录制
+- 编辑宏
+- 运行宏 Ctrl+F6
+
+#### 视图（已学）
+![视图](images/160b694c.png)
+- 全显
+- 样式 选择
+- 轴侧图 0 
+- 前视图 1
+- 顶视图 2
+- 右视图 3
+- 后视图 4
+- 底视图 5
+- 左视图 6
+- 测量
 
 ### 21. Test framework
 
@@ -357,8 +394,8 @@ TestTools
 
 ![TestTools](images/18d32ced.png)
 
-### 22. Web 网页（直接打开FreeCAD官网）（已学）
-#### Navigation
+### 22. Web 网页（直接打开FreeCAD官网）（完成）
+#### Navigation 导航
 ![Navigation](images/fc205409.png)
 - FreeCAD官网
 - 上一页
