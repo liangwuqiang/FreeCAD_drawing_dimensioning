@@ -188,9 +188,9 @@ OpenSCADTools
 
 ![OpenSCADTools](images/7cf73256.png)
 
-### 10. Part
+### 10. Part 零件（完成）
 
-#### 实体
+#### 实体（已学）
 ![实体](images/33916113.png)
 - 正方体
 - 圆柱体
@@ -198,9 +198,9 @@ OpenSCADTools
 - 圆锥体
 - 圆环体
 - 几何元
-- 高级工具  ？ 不会用
+- 高级工具(不会)
 
-#### 零件工具
+#### 零件工具（需要建立在Draft或Sketch的基础上）（已学）
 ![零件工具](images/3655c938.png)
 - 拉伸
 - 旋转
@@ -210,27 +210,27 @@ OpenSCADTools
 - 两边生成面
 - 放样
 - 扫掠
-- 偏移 ？ 搞不懂
+- 偏移（往外扩张，圆角填充边缘）
 - 抽壳
 
-#### 布尔值
+#### 布尔值（已学）
 ![布尔值](images/ab60b6e7.png)
 - 布尔运算
 - 差集
 - 合集
 - 交集
 - 分析错误
-- 交线
-- 横界面
+- 相交线
+- 截面
 
-#### Measure
+#### Measure 测量（已学）
 ![Measure](images/0f6854f1.png)
-- 线性测量
-- 角度测量
+- 线性（距离）
+- 角度
 - 清空
-- Toggle All  ?
-- Toggle 3d  ?
-- Toggle Delta  ?
+- Toggle All （不明白）
+- Toggle 3d  （不明白）
+- Toggle Delta  （不明白）
 
 ### 11. Part Design
 
@@ -349,9 +349,7 @@ Spreadsheet
 
 ### 20. Start
 
-Navigation
 
-![Navigation](images/fc205409.png)
 
 ### 21. Test framework
 
@@ -359,5 +357,13 @@ TestTools
 
 ![TestTools](images/18d32ced.png)
 
-### 22. Web
-
+### 22. Web 网页（直接打开FreeCAD官网）（已学）
+#### Navigation
+![Navigation](images/fc205409.png)
+- FreeCAD官网
+- 上一页
+- 下一页
+- 刷新
+- 停止
+- 放大
+- 缩小
